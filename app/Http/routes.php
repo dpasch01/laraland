@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'products'], function () {
+    Route::get('/', [
+      'uses' => 'ProductController@index',
+      'as' => 'product.index'
+    ]);
+});
