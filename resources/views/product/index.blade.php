@@ -12,9 +12,10 @@
 
         <div class='col-md-4 product'>
           <div class="thumbnail">
-            <img src="{{$product->image}}">
-            <div class="title">{{$product->title}}<span class="price">{{$product->price}}</span></div>
-            <a href="#" class="view-more">View more</a>
+            <img class="img-responsive" src="{{$product->image}}">
+            <div class="title">{{$product->title}}<span class="price">${{$product->price}}</span></div>
+            <div class="description">{{str_limit($product->description, 70)}}</div>
+            <div class="button"><a href="#" class="view-more">View more</a></div>
           </div>
         </div>
 
