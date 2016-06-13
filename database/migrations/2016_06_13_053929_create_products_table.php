@@ -18,7 +18,7 @@ class CreateProductsTable extends Migration
             $table->string('slug')->unique();
             $table->text('description');
             $table->float('price');
-            $table->string('image');
+            $table->string('image')->default('https://placeholdit.imgix.net/~text?txtsize=33&txt=Product%20image&w=300&h=250');
             $table->integer('stock');
             $table->timestamps();
         });
