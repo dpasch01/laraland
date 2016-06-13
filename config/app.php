@@ -159,6 +159,10 @@ return [
         laraland\Providers\EventServiceProvider::class,
         laraland\Providers\RouteServiceProvider::class,
 
+        /*
+         * Custom Service Providers...
+         */
+         Laraland\Laraland\LaralandServiceProvider::class,
     ],
 
     /*

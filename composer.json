@@ -20,7 +20,8 @@
             "database"
         ],
         "psr-4": {
-            "laraland\\": "app/"
+            "laraland\\": "app/",
+            "Laraland\\Laraland\\": "packages/laraland/laraland/src/"
         }
     },
     "autoload-dev": {

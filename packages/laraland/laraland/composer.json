@@ -1,0 +1,13 @@
+{
+    "name": "laraland/laraland",
+    "description": "A Content Management System module for laravel framework.",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Jimmy Paschalides",
+            "email": "dpasch01@cs.ucy.ac.cy"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
